@@ -1,0 +1,27 @@
+{
+  "name": "capability-iframe-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --display minimal --display-error-details --progress",
+    "build:qlik": "webpack --watch --config ./src/iframe/webpack.config.js --display minimal --display-error-details --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.4",
+    "enigma.js": "^2.3.0",
+    "leonardo-ui": "^1.6.0",
+    "query-string": "^6.1.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  }
+}
